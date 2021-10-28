@@ -2,6 +2,7 @@ package com.MQueiroz.integrations.resources;
 
 import com.MQueiroz.integrations.DTO.EmailDTO;
 import com.MQueiroz.integrations.services.EmailService;
+import com.MQueiroz.integrations.services.SendGridEmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
